@@ -1,0 +1,5 @@
+c) ( ) int assentos[5][8]; e assentos[1][2]
+R: Essa é a resposta correta, pois a matriz possui 5 fileiras e 8 assentos por fileira. Em C, os índices começam em zero. Portanto, a segunda fileira corresponde ao índice 1, e o terceiro assento corresponde ao índice 2.
+
+E o acesso ao terceiro assento da segunda fileira é:
+assentos[1][2]
