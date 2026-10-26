@@ -1,0 +1,8 @@
+1. Qual é a diferença entre vetor e matriz?
+O vetor armazena elementos em uma única dimensão, enquanto a matriz armazena elementos em duas ou mais dimensões, organizados em linhas e colunas.
+
+2. Quantos elementos possui uma matriz int dados[3][4]?
+Possui 12 elementos, pois são 3 linhas × 4 colunas = 12 elementos.
+
+3. Por que normalmente utilizamos dois comandos for para percorrer uma matriz bidimensional?
+Porque um comando for percorre as linhas e o outro percorre as colunas, permitindo acessar todos os elementos da matriz.
