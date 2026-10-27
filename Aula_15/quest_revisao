@@ -1,0 +1,10 @@
+A matriz é:
+
+[2 4]
+[6 8]
+
+Os laços for percorrem todos os elementos da matriz e somam seus valores:
+
+soma = 2 + 4 + 6 + 8 = 20
+
+Resposta: 20
