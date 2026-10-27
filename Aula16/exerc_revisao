@@ -1,0 +1,18 @@
+6. Qual é a diferença entre char e uma string?
+Reposta:
+Char armazena um único caractere, como uma letra ou um símbolo.
+String é uma sequência de caracteres armazenada em um vetor do tipo char em C.
+
+Exemplo:
+char letra = 'A';
+char nome[] = "Maria";
+
+7. Por que uma string precisa do caractere '\0'?
+O caractere especial '\0' indica o fim de uma string em C. Ele permite que o programa saiba onde o texto termina.
+
+8. Qual é a diferença entre ler um texto com scanf("%s", ...) e com fgets(...)?
+
+A principal diferença está na leitura dos espaços.
+
+-scanf("%s", ...) lê os caracteres até encontrar um espaço em branco, como um espaço entre nomes.
+-fgets(...) pode ler uma linha inteira, incluindo espaços, até encontrar uma quebra de linha ou atingir o limite definido.
