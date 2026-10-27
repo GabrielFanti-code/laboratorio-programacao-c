@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char nome[50];
+    char perfil[20];
+    char confirmacao[50];
+    char mensagem[100] = "Bem-vindo(a), ";
+
+    // 1. Solicitar o nome
+    printf("Digite seu primeiro nome: ");
+    scanf("%49s", nome);
+
+    // 2. Solicitar o perfil
+    printf("Digite o perfil (ADMIN ou COMUM): ");
+    scanf("%19s", perfil);
+
+    // 3. Contar os caracteres do nome
+    printf("\nQuantidade de caracteres: %zu\n", strlen(nome));
+
+    // 4. Identificar o perfil
+    if (strcmp(perfil, "ADMIN") == 0) {
+        printf("Perfil de acesso: Administrador\n");
+    } else if (strcmp(perfil, "COMUM") == 0) {
+        printf("Perfil de acesso: Usuario comum\n");
+    } else {
+        printf("Perfil invalido!\n");
+        return 0;
+    }
+
+    // 5. Copiar o nome para a variavel de confirmacao
+    strcpy(confirmacao, nome);
+
+    // 6. Montar a mensagem de boas-vindas
+    strcat(mensagem, confirmacao);
+    strcat(mensagem, "!");
+
+    // 7. Exibir os dados cadastrados
+    printf("Nome cadastrado: %s\n", nome);
+    printf("Nome de confirmacao: %s\n", confirmacao);
+    printf("%s\n", mensagem);
+
+    return 0;
+}
