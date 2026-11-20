@@ -1,0 +1,39 @@
+AULA 18 - ATIVIDADE DE REVISAO
+1. A funcao exibirLinha() nao possui parametros nem retorno (void).
+2. somar(), subtrair(), multiplicar() e dividir() recebem dois parametros.
+   maiorPreco() tambem recebe dois valores; a resposta depende de quais funcoes
+   matematicas a pergunta considera.
+3. return devolve o resultado da funcao para quem a chamou e encerra sua execucao.
+4. switch seleciona qual operacao executar conforme a opcao escolhida.
+5. do...while executa o bloco ao menos uma vez e repete enquanto a condicao for verdadeira.
+6. A divisao por zero e indefinida em aritmetica inteira e invalida para o calculo;
+   por isso deve ser impedida.
+
+AULA 20 - QUESTOES 1 A 10
+1. b) Agrupar informacoes relacionadas.
+2. a) Ponto (.) .
+3. a) Pessoa pessoa1;
+4. c) Falta o ponto e virgula apos Produto.
+5. b) Pessoa pessoa1;
+6. a) pessoa1.idade = 25;
+7. a) Vetor armazena elementos do mesmo tipo; struct agrupa campos de tipos diferentes.
+8. b) Cria um nome alternativo para um tipo.
+9. b) Sim; cada variavel possui seus proprios campos.
+10. a) Sim; campos podem ser usados em expressoes, calculos e condicoes.
+
+AULA 20 - QUESTAO 12
+a) Os especificadores estao trocados: nome e string, idade e inteiro.
+b) %s.
+c) %d.
+d) Nao. O campo nome nao recebeu valor; deve ser preenchido antes de exibi-lo.
+Correcao: ler o nome com scanf(" %49[^
+]", aluno1.nome), exibir nome com %s
+e idade com %d.
+
+AULA 20 - QUESTAO 13
+a) Produto.
+b) codigo, nome e preco.
+c) Operador ponto (.).
+
+AULA 20 - QUESTAO 16
+Falta ponto e virgula depois da definicao da struct: } Pessoa;
