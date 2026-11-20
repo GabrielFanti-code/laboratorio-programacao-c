@@ -1,0 +1,25 @@
+AULA 14 - REVISAO DE CONTEUDO
+1. Vetor e uma estrutura unidimensional; matriz organiza elementos em duas dimensoes: linhas e colunas.
+2. int dados[3][4] possui 3 x 4 = 12 elementos.
+3. Usamos dois for porque um percorre as linhas e o outro percorre as colunas.
+4. Reserva de assentos: alternativa C. A matriz e int assentos[5][8] e o terceiro assento da segunda fileira e assentos[1][2], pois os indices comecam em zero.
+
+AULA 15 - REVISAO INICIAL
+1. Vetor tem uma dimensao; matriz tem linhas e colunas.
+2. int numeros[3][4] armazena 12 elementos.
+3. Um for percorre as linhas e o outro percorre as colunas.
+4. numeros[1][2] vale 60: linha de indice 1 e coluna de indice 2.
+
+AULA 15 - PERGUNTA SOBRE totalProduto
+A variavel totalProduto e inicializada com zero dentro do primeiro for para reiniciar o acumulador a cada produto. Assim, a soma de uma linha nao mistura os valores da linha anterior.
+
+AULA 15 - QUESTAO DE REVISAO FINAL
+A soma e 2 + 4 + 6 + 8 = 20. Portanto, o programa exibe 20.
+
+AULA 16 - REVISAO DE CONTEUDO
+6. char armazena um unico caractere, como 'A'. Uma string e uma sequencia de caracteres armazenada em um vetor char e terminada por '\0', como "Maria".
+7. O caractere nulo '\0' marca o fim da string. Funcoes e lacos conseguem identificar onde o texto termina.
+8. scanf("%s", ...) interrompe a leitura no primeiro espaco em branco. fgets(...) pode ler uma linha inteira, incluindo espacos, e limita a quantidade de caracteres lidos ao tamanho informado.
+
+Observacao:
+Nas questoes de programacao, os codigos estao nos arquivos .c correspondentes.
